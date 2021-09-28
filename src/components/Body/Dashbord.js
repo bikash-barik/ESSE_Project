@@ -6,7 +6,7 @@ export default class Dashbord extends Component {
     return (
       <div>
         <div
-          class="alert text-danger shadow w-50 p-3 mb-5 mt-3 bg-light rounded alert-dismissible fade show"
+          class="alert text-danger shadow w-sm-100 w-md-50 p-3 mb-5 mt-3 bg-light rounded alert-dismissible fade show"
           role="alert"
         >
           Complete your Profile

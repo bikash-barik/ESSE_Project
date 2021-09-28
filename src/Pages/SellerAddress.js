@@ -1,8 +1,7 @@
 import React, { Component } from "react";
-import Dashbord from "../components/Body/Dashbord";
 import Sidebar from "../components/Sidebar/Sidebar";
-
-export default class Dashboard extends Component {
+import SelleradddressRoght from "../components/Body/SelleradddressRoght";
+export default class SellerAddress extends Component {
   render() {
     return (
       
@@ -11,8 +10,8 @@ export default class Dashboard extends Component {
             <div class="col-sm-12 col-md-3">
               <Sidebar />
             </div>
-            <div class="col-sm-12 col-md-9 col-lg-8">
-              <Dashbord />
+            <div class="col-sm-12 col-md-9 col-lg-9">
+              <SelleradddressRoght />
             </div>
           </div>
         </div>

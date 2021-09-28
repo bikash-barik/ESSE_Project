@@ -8,6 +8,7 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 // Custom Component
 import Header from "./components/Header";
 import Dashboard from "./Pages/Dashboard";
+import SellerAddress from "./Pages/SellerAddress";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Header />
       <Switch>
         <Route exact path="/" component={Dashboard} />
+        <Route exact path="/selleraccount" component={SellerAddress} />
       
     
        

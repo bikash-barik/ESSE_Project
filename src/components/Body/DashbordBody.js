@@ -1,14 +1,13 @@
 import React, { Component } from "react";
 
-export default function DashbordBody(props){
-
-    return (
-      <div>
-        <div
-          class="d-flex alert shadow p-2 mb-3 bg-light rounded alert-dismissible fade show"
-          role="alert"
-        >
-         <div class="d-flex align-items-center" >
+export default function DashbordBody(props) {
+  return (
+    <div>
+      <div
+        class="d-flex alert shadow p-2 mb-3 bg-light rounded alert-dismissible fade show"
+        role="alert"
+      >
+        <div class="d-flex align-items-center">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="44"
@@ -23,22 +22,18 @@ export default function DashbordBody(props){
           </svg>
           <div>
             <h5 className="text-success">{props.Heading}</h5>
-            {props.Title}
+            <span className="texttitle">{props.Title}</span>
           </div>
-
-          
         </div>
-
+        <span className="mt-2 d-sm-none d-md-block">
           <button
             type="button"
-            class="btn-close align-items-center mt-2"
+            className="btn-close align-items-center "
             data-bs-dismiss="alert"
             aria-label=""
           ></button>
-        </div>
-
-       
+        </span>
       </div>
-    );
-  }
-
+    </div>
+  );
+}
