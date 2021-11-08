@@ -9,7 +9,7 @@ export default class Sidebar extends Component {
           <div className="d-flex flex-column">
             <div className="profile">
               <img
-                src="https://media-exp1.licdn.com/dms/image/C5603AQHXOn4z2Ur2Hg/profile-displayphoto-shrink_400_400/0/1587530088920?e=1635379200&v=beta&t=8xDldphLn88GOaOncwsMAjvdB9hMkVeGb5m6tc_6vdU"
+                src="https://www.w3schools.com/howto/img_avatar.png"
                 alt=""
                 className="img-fluid rounded-circle"
               />

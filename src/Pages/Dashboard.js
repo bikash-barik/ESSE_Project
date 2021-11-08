@@ -8,7 +8,7 @@ export default class Dashboard extends Component {
       
         <div class="container">
           <div class="row">
-            <div class="col-sm-12 col-md-3">
+            <div class="col-sm-0 col-md-3">
               <Sidebar />
             </div>
             <div class="col-sm-12 col-md-9 col-lg-8">

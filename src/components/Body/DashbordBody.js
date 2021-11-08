@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 
+
 export default function DashbordBody(props) {
   return (
     <div>
@@ -26,9 +27,11 @@ export default function DashbordBody(props) {
           </div>
         </div>
         <span className="mt-2 d-sm-none d-md-block">
+        
           <button
+          
             type="button"
-            className="btn-close align-items-center "
+            className="btn-close align-items-center"
             data-bs-dismiss="alert"
             aria-label=""
           ></button>

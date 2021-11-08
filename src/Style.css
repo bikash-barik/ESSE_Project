@@ -77,8 +77,9 @@ h6 {
   margin: 15px auto;
   display: block;
   width: 120px;
-  border: 8px solid #2c2f3f;
+  border: 1px solid #2c2f3f;
 }
+
 
 #header .profile h1 {
   font-size: 24px;
@@ -139,6 +140,13 @@ h6 {
   #main {
     margin-left: 0;
   }
+}
+
+@media (max-width: 670px) {
+  .mabile-none{
+    display: none;
+  }
+
 }
 
 /*--------------------------------------------------------------
@@ -223,5 +231,133 @@ h6 {
 
 .mobile-nav-active #header {
   left: 0;
+}
+
+
+
+
+
+
+/* //footer? */
+
+
+article {
+  min-height: 100%;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+  background-color: #45a1ff;
+  color: #fff;
+}
+
+.nav-bar-path{
+  --bs-breadcrumb-divider: '>';
+}
+
+
+
+/* style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='currentColor'/%3E%3C/svg%3E&#34;);" */
+
+
+/* // seller profile  */
+.bg-light1{
+  background-color: rgb(240, 240, 240);
+}
+
+.bg-light2{
+  background-color: rgb(210, 210, 210);
+}
+
+
+#header-profile {
+  margin-top: 150px;
+  justify-content: center;
+  justify-items: center;
+  
+  bottom: 0;
+  transition: all ease-in-out 0.5s;
+  z-index: 9997;
+  transition: all 0.5s;
+  padding: 0 15px;
+  /* background: #ffffff; */
+  overflow-y: auto;
+ 
+}
+
+#header-profile .profile img {
+  margin: 15px auto;
+  display: block;
+  width: 120px;
+  border: 1px solid #2c2f3f;
+}
+
+
+#header-profile .profile h1 {
+  font-size: 24px;
+  margin: 0;
+  padding: 0;
+  font-weight: 600;
+  -moz-text-align-last: center;
+  text-align-last: center;
+  font-family: "Poppins", sans-serif;
+}
+
+#header-profile .profile P {
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+  color: gray !important;
+  font-weight: 100;
+  -moz-text-align-last: center;
+  text-align-last: center;
+  font-family: "Poppins", sans-serif;
+}
+
+#header-profile .profile h1 a,
+#header-profile .profile h1 a:hover {
+  color: #80c723;
+  text-decoration: none;
+}
+
+#header-profile .profile .social-links a {
+  display: inline-block;
+  background: #212431;
+  color: #fff;
+  line-height: 1;
+  padding: 8px 0;
+  margin-right: 4px;
+  border-radius: 50%;
+  text-align: center;
+  width: 36px;
+  height: 36px;
+  transition: 0.3s;
+}
+
+#header-profile .profile .social-links a:hover {
+  background: #80c723;
+  color: #fff;
+  text-decoration: none;
+}
+
+#main {
+  margin-left: 300px;
+}
+
+@media (max-width: 1199px) {
+  #header-profile {
+    left: -300px;
+  }
+  #main {
+    margin-left: 0;
+  }
+}
+
+.btn-close{
+  background-image: url(https://img.icons8.com/ios-glyphs/50/000000/long-arrow-right.png);
 }
 

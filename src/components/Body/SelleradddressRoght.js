@@ -145,7 +145,7 @@ export default class SelleradddressRoght extends Component {
           </div>
         </div>
 
-        {/* <div class="col-12 d-sm-inline-flex jystify-between">
+        <div class="col-12 d-sm-inline-flex d-flex justify-content-between">
           <div class="form-check">
             <input
               class="form-check-input"
@@ -158,15 +158,15 @@ export default class SelleradddressRoght extends Component {
           </div>
         
 
-        <div>
-          <button type="submit" class="btn btn-primary">
+        <div className="justify-content-between">
+          <button type="submit" class="btn btn-primary mr-2">
             CANCLE
           </button>
           <button type="submit" class="btn btn-primary">
             SAVE CHANGES
           </button>
         </div>
-        </div> */}
+        </div>
       </div>
     );
   }
